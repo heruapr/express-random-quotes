@@ -3,7 +3,7 @@ import express from 'express'
 import cors from 'cors'
 const url = "https://zenquotes.io/api/random";
 const app = express()
-const port = 3002
+const port = 3000
 
 app.use(cors())
 
