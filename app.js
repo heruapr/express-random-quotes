@@ -4,8 +4,7 @@ import cors from 'cors'
 import redis from 'redis'
 const url = "https://zenquotes.io/api/random";
 const app = express()
-// const port = process.env.PORT
-const port = 3002
+const port = process.env.PORT
 const timeInSeconds = 86400
 const redisKey = 'quotes'
 const apiNameSpace = 'zenquotes.io'
