@@ -1,1 +1,1 @@
-heroku config:set BUILDPACK_RUN='echo "Hello World"
+heroku config:set BUILDPACK_RUN='echo "Hello World"'
