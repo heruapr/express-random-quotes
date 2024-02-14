@@ -3,6 +3,8 @@ import express from 'express'
 import cors from 'cors'
 const url = "https://zenquotes.io/api/random";
 const app = express()
+import dotenv from 'dotenv';
+dotenv.config();
 const port = process.env.PORT
 const apiNameSpace = 'zenquotes.io'
 
